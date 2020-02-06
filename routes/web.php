@@ -12,3 +12,8 @@
 */
 
 Route::get('/','OtherPagesController@index');
+//____________________________AUTH USER_______________________________________________
+Route::get('/auth/register','AuthUserController@register');
+Route::get('/auth/login','AuthUserController@login');
+Route::post('/auth/register','AuthUserController@store')->name('auth.register');
+Route::post('/auth/login','AuthUserController@loginChecking')->name('auth.login');
