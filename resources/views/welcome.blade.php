@@ -1,4 +1,8 @@
 @extends('UxDesignLayout.UxDesign.mainLayout')
+@section('aside')
+
+    @include('UxDesignLayout.UxDesign.aside')
+    @endsection
 @section('content')
 
     <div class="content-wrapper">
