@@ -45,11 +45,11 @@
                                        <label for="">Gender</label>
                                        <div class="row form-group ">
                                            <div class="col-md-6 form-check">
-                                               <input class="form-check-input" type="radio" name="gender" checked>
+                                               <input class="form-check-input" type="radio" name="gender" checked value="M">
                                                <label class="form-check-label">Male</label>
                                            </div>
                                            <div class="col-md-6">
-                                               <input class="form-check-input" type="radio" name="gender">
+                                               <input class="form-check-input" type="radio" name="gender" value="F">
                                                <label class="form-check-label">Female</label>
                                            </div>
                                        </div>
