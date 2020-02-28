@@ -12,11 +12,31 @@ class ApplicationController extends Controller
         return view('Application.index');
     }
 
-
     public function basicInfo()
     {
         //dd('hello');
        return view('Application.Basic_Info.index');
+    }
+    public function basicInfoCreate()
+    {
+        $data = request()->validate([
+           'first_name'=> 'required',
+           'middle_name'=> 'required',
+           'last_name'=> 'required',
+           'dob'=> 'required',
+           'religion'=> 'required',
+           'nationality'=> 'required',
+           'country_of_birth'=> 'required',
+           'region'=> 'required',
+           'district'=> 'required',
+           'email'=> 'required|email',
+           'mobile_number'=> 'required',
+           'mobile_number_alt'=> '',
+           'p_o_box'=> 'required',
+           'place_of_birth'=> 'required',
+           'gender'=> 'required',
+        ]);
+        dd($data);
     }
 
 

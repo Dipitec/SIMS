@@ -45,3 +45,8 @@
     transform:scaleX(1.16);
 
 }
+.registerCard label{
+    color: #010229;
+    font-family:Consolas;
+    font-weight:100;
+}
