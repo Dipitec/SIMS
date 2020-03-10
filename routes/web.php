@@ -20,14 +20,6 @@ Route::post('/auth/login', 'AuthUserController@loginChecking')->name('auth.login
 
 
 //APPLICATION ROUTES
-<<<<<<< HEAD
-Route::get('/apply/home/user', 'ApplicationController@index')->name('apply.home');
-Route::get('/applicant/user/basic-info', 'ApplicationController@basicInfo')->name('applicant.basic-info');
-//Route::get('/applicant/user/education-level','ApplicationController@index')->name('applicant.basic-info');
-//Route::get('/applicant/user/closest-relative','ApplicationController@index')->name('applicant.basic-info');
-//Route::get('/applicant/user/attachments','ApplicationController@index')->name('applicant.basic-info');
-//Route::get('/applicant/user/course-selection','ApplicationController@index')->name('applicant.basic-info');
-=======
 Route::get('/apply/home/user','ApplicationController@index')->name('apply.home');
 Route::get('/applicant/user/basic-info','ApplicationController@basicInfo')->name('applicant.basic-info');
 Route::post('/applicant/user/basic-info','ApplicationController@basicInfoCreate')->name('application.basic-info.create');
@@ -36,7 +28,6 @@ Route::get('/applicant/user/education-level','ApplicationController@educationVer
 Route::get('/applicant/user/other-info','ApplicationController@otherInfo')->name('applicant.other-info');
 Route::get('/applicant/user/course-selection','ApplicationController@selectCourse')->name('applicant.select-course');
 Route::get('/applicant/user/attachments-and-payments','ApplicationController@paymentUploads')->name('applicant.attachments-payments');
->>>>>>> c437c93499aed40bb99c5bf4dc9a15ce0531fe61
 //Route::get('/applicant/user/payment','ApplicationController@index')->name('applicant.basic-info');
 Auth::routes();
 
