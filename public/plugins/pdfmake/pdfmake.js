@@ -39143,14 +39143,14 @@ var GPOSLookup = new r.VersionedStruct('lookupType', {
     }
   }),
 
-  3: { // Cursive Attachment Positioning
+  3: { // Cursive AttachmentPayments Positioning
     format: r.uint16,
     coverage: new r.Pointer(r.uint16, Coverage),
     entryExitCount: r.uint16,
     entryExitRecords: new r.Array(EntryExitRecord, 'entryExitCount')
   },
 
-  4: { // MarkToBase Attachment Positioning
+  4: { // MarkToBase AttachmentPayments Positioning
     format: r.uint16,
     markCoverage: new r.Pointer(r.uint16, Coverage),
     baseCoverage: new r.Pointer(r.uint16, Coverage),
@@ -39159,7 +39159,7 @@ var GPOSLookup = new r.VersionedStruct('lookupType', {
     baseArray: new r.Pointer(r.uint16, BaseArray)
   },
 
-  5: { // MarkToLigature Attachment Positioning
+  5: { // MarkToLigature AttachmentPayments Positioning
     format: r.uint16,
     markCoverage: new r.Pointer(r.uint16, Coverage),
     ligatureCoverage: new r.Pointer(r.uint16, Coverage),
@@ -39168,7 +39168,7 @@ var GPOSLookup = new r.VersionedStruct('lookupType', {
     ligatureArray: new r.Pointer(r.uint16, LigatureArray)
   },
 
-  6: { // MarkToMark Attachment Positioning
+  6: { // MarkToMark AttachmentPayments Positioning
     format: r.uint16,
     mark1Coverage: new r.Pointer(r.uint16, Coverage),
     mark2Coverage: new r.Pointer(r.uint16, Coverage),
@@ -46515,7 +46515,7 @@ var GPOSProcessor = function (_OTProcessor) {
 
       case 3:
         {
-          // Cursive Attachment Positioning
+          // Cursive AttachmentPayments Positioning
           var nextIndex = this.glyphIterator.peekIndex();
           var _nextGlyph = this.glyphs[nextIndex];
           if (!_nextGlyph) {

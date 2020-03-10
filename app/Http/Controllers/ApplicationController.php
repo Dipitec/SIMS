@@ -2,20 +2,36 @@
 
 namespace App\Http\Controllers;
 
+use App\Adm_course_list;
 use Illuminate\Http\Request;
 
 class ApplicationController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
 
     public function index()
     {
         return view('Application.index');
     }
-
+//                RETURN A FORM FOR BASIC INFO
     public function basicInfo()
     {
         //dd('hello');
        return view('Application.Basic_Info.index');
+    }
+                    /*RETURN A OTHER DETAILS FORM*/
+    public function otherInfo()
+    {
+        return view("Application.Other_stuffs.otherInfo");
+    }
+    /*RETURN A GUARDIAN DETAILS FORM*/
+    public function guardianInfo()
+    {
+        return view('Application.Other_stuffs.guardianInfo');
     }
     public function basicInfoCreate()
     {
@@ -37,6 +53,21 @@ class ApplicationController extends Controller
            'gender'=> 'required',
         ]);
         dd($data);
+    }
+
+    public function educationVerify(){
+        return view("Application.Education_verifications.eduVerify");
+    }
+    public function paymentUploads()
+    {
+        return view("Application.AttachmentPayments.index");
+    }
+
+    public function selectCourse()
+    {
+
+        $coursesData = Adm_course_list::all();
+        return view("Application.Course_Selection.selectCourse",compact('coursesData'));
     }
 
 

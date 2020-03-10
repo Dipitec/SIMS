@@ -27,7 +27,7 @@
     margin:0;
     box-shadow: 0px 1px 8px 5px black;
 }
-.registerCard input{
+.registerCard input, .registerCard select, .registerCard textarea{
     font-family: Courier New, monospace;
     font-weight: 400;
     text-align: center;
