@@ -41,21 +41,39 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route('applicant.other-info')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Step Two</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route('applicant.guardian-info')}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Step Three</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route("applicant.education-verify")}}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Step Four</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{route("applicant.select-course")}}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Step Five</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{route("applicant.education-verify")}}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Step Six</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{route("applicant.attachments-payments")}}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Step Seven</p>
                             </a>
                         </li>
                     </ul>
@@ -109,7 +127,7 @@
                         <li class="nav-item">
                             <a href="pages/examples/register.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Register</p>
+                                <p>Account Profile</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -122,54 +140,6 @@
                             <a href="pages/examples/recover-password.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Recover Password</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/examples/lockscreen.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Lockscreen</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/examples/legacy-user-menu.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Legacy User Menu</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/examples/language-menu.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Language Menu</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/examples/404.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Error 404</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/examples/500.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Error 500</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/examples/pace.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Pace</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/examples/blank.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Blank Page</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="starter.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Starter Page</p>
                             </a>
                         </li>
                     </ul>
