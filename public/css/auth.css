@@ -27,7 +27,7 @@
     margin:0;
     box-shadow: 0px 1px 8px 5px black;
 }
-.registerCard input{
+.registerCard input, .registerCard select, .registerCard textarea{
     font-family: Courier New, monospace;
     font-weight: 400;
     text-align: center;
@@ -44,4 +44,9 @@
 .registerCard button:hover{
     transform:scaleX(1.16);
 
+}
+.registerCard label{
+    color: #010229;
+    font-family:Consolas;
+    font-weight:100;
 }
