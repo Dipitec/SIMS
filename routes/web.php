@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'OtherPagesController@index');
+
 //____________________________AUTH USER_______________________________________________
 Route::get('/auth/register', 'AuthUserController@register');
 Route::get('/auth/login', 'AuthUserController@login');
@@ -28,7 +29,6 @@ Route::get('/applicant/user/education-level','ApplicationController@educationVer
 Route::get('/applicant/user/other-info','ApplicationController@otherInfo')->name('applicant.other-info');
 Route::get('/applicant/user/course-selection','ApplicationController@selectCourse')->name('applicant.select-course');
 Route::get('/applicant/user/attachments-and-payments','ApplicationController@paymentUploads')->name('applicant.attachments-payments');
-//Route::get('/applicant/user/payment','ApplicationController@index')->name('applicant.basic-info');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

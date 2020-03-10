@@ -20,7 +20,6 @@ class ApplicationController extends Controller
 //                RETURN A FORM FOR BASIC INFO
     public function basicInfo()
     {
-        //dd('hello');
        return view('Application.Basic_Info.index');
     }
                     /*RETURN A OTHER DETAILS FORM*/
