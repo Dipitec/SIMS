@@ -32,3 +32,5 @@ Route::get('/applicant/user/attachments-and-payments','ApplicationController@pay
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// This is a test
