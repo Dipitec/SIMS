@@ -1,0 +1,22 @@
+.applicant-user-cards .card-header .card-title{
+    text-align: center!important;
+    color: #38c910;
+   margin-left: 10%;
+    padding:0;
+    font-family: "Times New Roman";
+    font-size: 26px;
+}
+.applicant-user-cards .card-header{
+    background: #000000;
+    padding:1px;
+}
+.applicant-user-cards .card-body{
+    background: #01021c;
+    color:whitesmoke;
+    padding:3px;
+}
+.applicant-user-cards h6 {
+    color: #4effeb;
+    padding:0;
+    margin:0;
+}
