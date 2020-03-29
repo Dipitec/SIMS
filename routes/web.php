@@ -11,15 +11,33 @@
 |
 */
 
+
+/*
+|--------------------------------------------------------------------------
+| HOME ROUTE
+|--------------------------------------------------------------------------
+|by stanley
+*/
 Route::get('/','OtherPagesController@index');
-//____________________________AUTH USER_______________________________________________
+
+
+/*
+|--------------------------------------------------------------------------
+| AUTH USER ROUTES
+|--------------------------------------------------------------------------
+|by stanley
+*/
 Route::get('/auth/register','AuthUserController@register')->name('auth.registerForm');;
 Route::get('/auth/login','AuthUserController@login')->name('auth.loginForm');;
 Route::post('/auth/register','AuthUserController@store')->name('auth.register');
 Route::post('/auth/login','AuthUserController@loginChecking')->name('auth.login');
 
-
-//APPLICATION ROUTES
+/*
+|--------------------------------------------------------------------------
+| APPLICATION ROUTES
+|--------------------------------------------------------------------------
+|by stanley
+*/
 Route::get('/apply/home/user','ApplicationController@index')->name('apply.home');
 
 Route::get('/applicant/user/basic-info','ApplicationController@basicInfo')->name('applicant.basic-info');
@@ -37,3 +55,15 @@ Route::get('/applicant/user/attachments-and-payments','ApplicationController@pay
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+/*
+|--------------------------------------------------------------------------
+| ADMINISTRATION ROUTES
+|--------------------------------------------------------------------------
+|by swai
+*/
+Route::get('/administration-index','AdministrationController@index');
+
+Route::get('/test', function(){
+  return view('Administration.Student.classes');
+});
