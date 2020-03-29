@@ -1,11 +1,13 @@
-@extends('UxDesignLayout.UxDesign.mainLayout')
+@extends('UxDesignLayout.UxDesignGeneral.mainLayout')
 @section('title_bar','Apply Now')
     @section('aside')
-        @include('UxDesignLayout.UxDesign.aside_appl')
+        @include('UxDesignLayout.UxDesignGeneral.aside_appl')
         @endsection
 @section('content')
+
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
+        @include("Application.Partials.alertResponses")
         <div class="content-header">
             <div class="container">
                 <div class="row mb-2">
