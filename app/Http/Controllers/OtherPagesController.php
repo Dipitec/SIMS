@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use App\Adm_course_level;
 use App\Auth_user;
+use App\User;
 use Illuminate\Http\Request;
 
 class OtherPagesController extends Controller
@@ -12,7 +13,7 @@ class OtherPagesController extends Controller
     public function index()
     {
 //
-            $data = Auth_user::all();
+            $data = User::all();
         return view('welcome',compact('data'));
     }
 

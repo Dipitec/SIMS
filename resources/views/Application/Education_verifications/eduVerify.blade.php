@@ -1,10 +1,11 @@
-@extends('UxDesignLayout.UxDesign.mainLayout')
+@extends('UxDesignLayout.UxDesignGeneral.mainLayout')
 @section('title_bar','Apply Now')
     @section('aside')
-        @include('UxDesignLayout.UxDesign.aside_appl')
+        @include('UxDesignLayout.UxDesignGeneral.aside_appl')
         @endsection
 @section('content')
     <div class="content-wrapper">
+    @include("Application.Partials.alertResponses")
         <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="container">
@@ -27,43 +28,17 @@
         <div class="content">
             <div class="container">
 
-                {{--FIRST ROW OF SECONDARY SCHOOL EDUCTION--}}
+                {{--FIRST ROW OF PRIMARY SCHOOL EDUCTION--}}
                 <div class="registerCard">
-                    <form>
-                        <div class="row justify-content-center">
-                            <div class="col-md-8 row">
-                                <div class="card col-md-4 ">
+                    @if($primaryEducationKey === 1)
+                        @include('Application.Education_verifications.view_details')
 
-                                    <div class="card-body">
-                                        <label for="indexNumberInput">School Name</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="card col-md-4 ">
-                                    <div class="card-body">
-                                        <label for="indexNumberInput">Graduation Year</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="card col-md-4 ">
-                                    <div class="card-body">
-                                        <label for="indexNumberInput">District</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
+                    @else
+                        <form method="POST" action="{{route("applicant.education-primary-create")}}">
+                            @include("Application.Partials.primary_education_form")
+                        </form>
+                    @endif
 
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card ">
-                                    <div class="h3 text-center text-cyan">Primary School</div>
-                                    <div class="card-body bg-light ">
-                                        <button type="submit" class="float-right btn-primary btn-sm btn-block">Save</button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </form>
                 </div>
                 @include("Application.Partials.educationVerify")
             </div><!-- /.container-fluid -->

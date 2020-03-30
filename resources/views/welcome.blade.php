@@ -1,7 +1,7 @@
-@extends('UxDesignLayout.UxDesign.mainLayout')
+@extends('UxDesignLayout.UxDesignGeneral.mainLayout')
 @section('aside')
 
-    @include('UxDesignLayout.UxDesign.aside')
+    @include('UxDesignLayout.UxDesignGeneral.aside')
     @endsection
 @section('content')
 
