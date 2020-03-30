@@ -1,5 +1,4 @@
 @extends('layouts.Administration.basic_layout')
-
 @section('content_1')
 <div class="row">
  <div class="col-12">
@@ -24,7 +23,7 @@
            <tr>
              <th scope="col">Class Code</th>
              <th scope="col">Department</th>
-             <th scope="col">Admited Year</th>
+             <th scope="col">Admitted Year</th>
              <th scope="col">Class Session</th>
              <th scope="col">Status</th>
              <th scope="col"></th>
