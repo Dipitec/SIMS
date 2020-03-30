@@ -2,69 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="742d75ff-d4de-417b-9d05-6ffa4df1d343" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Application/Basic_Info/view_details.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Application/Education_verifications/view_details.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Application/Education_verifications/view_details_verified_levels.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Application/Other_stuffs/view_details.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Application/Other_stuffs/view_details_guardian.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Application/Partials/primary_education_form.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Accounts_items.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Accounts_student_info.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_class_ntas.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_classes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_course_level.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_course_list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_courselevel_nta.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_department.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_registrations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_staff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Adm_student.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_basicinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_course_selection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_education_verification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_eduverify_score.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_error_code.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_kin1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_kin2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_otherdetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_payment_verification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_primary_edu_info.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_residence.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Apl_upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Auth_priv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Auth_role.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Auth_roles_priv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Auth_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Auth_user_type.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Auth_users_priv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Exam_module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Exam_score.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Tt_module_assignment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Tt_venue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Tt_venues_type.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdministrationController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Administration/Staffs/staff_details.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Administration/Student/classes.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Administration/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/Administration/basic_layout.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/OtherPagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/OtherPagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/AttachmentPayments/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/AttachmentPayments/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Basic_Info/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Basic_Info/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Course_Selection/selectCourse.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Course_Selection/selectCourse.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Education_verifications/eduVerify.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Education_verifications/eduVerify.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Other_stuffs/guardianInfo.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Other_stuffs/guardianInfo.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Other_stuffs/otherInfo.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Other_stuffs/otherInfo.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Partials/basicInfoForm.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Partials/basicInfoForm.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Partials/guardianForm.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Partials/guardianForm.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/Students/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/Students/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Application/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Application/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesign/aside.blade.php" afterPath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesignGeneral/aside.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesign/aside_appl.blade.php" afterPath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesignGeneral/aside_appl.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesign/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesignGeneral/footer.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesign/mainLayout.blade.php" afterPath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesignGeneral/mainLayout.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesign/main_nav.blade.php" afterPath="$PROJECT_DIR$/resources/views/UxDesignLayout/UxDesignGeneral/main_nav.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,8 +40,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="459">
+              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,8 +51,14 @@
         <entry file="file://$PROJECT_DIR$/resources/views/Application/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding />
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <marker date="1585545716796" expanded="true" signature="10207:10598" ph="..." />
+                <marker date="1585545716796" expanded="true" signature="10207:10629" ph="..." />
+                <marker date="1585545716796" expanded="true" signature="10207:10662" ph="..." />
+                <marker date="1585545716796" expanded="true" signature="10207:10691" ph="..." />
+                <marker date="1585545716796" expanded="true" signature="10302:10563" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,18 +76,10 @@
       <file leaf-file-name="ApplicationController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <element signature="e#1531#1622#0#PHP" expanded="false" />
-                <element signature="e#1627#1876#0#PHP" expanded="false" />
-                <element signature="e#1881#2133#0#PHP" expanded="false" />
-                <element signature="e#2392#2640#0#PHP" expanded="false" />
-                <element signature="e#2645#2899#0#PHP" expanded="false" />
-                <element signature="e#3168#3420#0#PHP" expanded="false" />
-                <element signature="e#3425#3700#0#PHP" expanded="false" />
-                <element signature="e#3941#4490#0#PHP" expanded="false" />
-                <element signature="e#4573#4756#1#PHP" expanded="false" />
+                <marker date="1585545716734" expanded="true" signature="8038:8068" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -365,7 +309,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,11 +323,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,7 +493,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150863000" />
+    <option name="totallyTimeSpent" value="151054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,7 +508,7 @@
     <frame x="-5" y="30" width="1371" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7268446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3020595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -580,12 +520,23 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50980395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7268446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="33" column="84" lean-forward="false" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,18 +908,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApplicationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#1531#1622#0#PHP" expanded="false" />
-            <element signature="e#1627#1876#0#PHP" expanded="false" />
-            <element signature="e#1881#2133#0#PHP" expanded="false" />
-            <element signature="e#2392#2640#0#PHP" expanded="false" />
-            <element signature="e#2645#2899#0#PHP" expanded="false" />
-            <element signature="e#3168#3420#0#PHP" expanded="false" />
-            <element signature="e#3425#3700#0#PHP" expanded="false" />
-            <element signature="e#3941#4490#0#PHP" expanded="false" />
-            <element signature="e#4573#4756#1#PHP" expanded="false" />
+            <marker date="1585545716734" expanded="true" signature="8038:8068" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -995,15 +919,21 @@
     <entry file="file://$PROJECT_DIR$/resources/views/Application/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <marker date="1585545716796" expanded="true" signature="10207:10598" ph="..." />
+            <marker date="1585545716796" expanded="true" signature="10207:10629" ph="..." />
+            <marker date="1585545716796" expanded="true" signature="10207:10662" ph="..." />
+            <marker date="1585545716796" expanded="true" signature="10207:10691" ph="..." />
+            <marker date="1585545716796" expanded="true" signature="10302:10563" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="459">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
